@@ -20,6 +20,6 @@ function countNewFriends(n) {
     }
     return friends.length;
 }
-var input = 11111;
+var input = Number(prompt("Enter John's number"));
 console.log(`result for ${input} is ${countNewFriends(input)}`);
 
