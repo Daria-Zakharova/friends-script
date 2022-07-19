@@ -3,7 +3,7 @@ function countNewFriends(n) {
     function checkDivisor(nMax, nMin) {
         while (nMin) {
             //та самая формула, которой мне не хватало
-            var t = nMin;
+            let t = nMin;
             nMin = nMax % nMin;
             nMax = t;
         }
